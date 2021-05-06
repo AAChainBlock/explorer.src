@@ -1,0 +1,50 @@
+.anctionbox{
+    padding: .8rem;
+    height: 20rem;
+    .itembox{
+        display: flex;
+        flex-wrap: wrap;
+        &>div{
+            width: 25%;
+            text-align: center;
+            line-height: 1.6;
+            overflow: hidden;
+        }
+    }
+    .codebox{
+        position: relative;
+        z-index: 999;
+    }
+
+    .treetitles{
+        display: flex;
+        &>span{
+            margin-right: .6rem;
+        }
+    }
+
+    .itemdbox{
+        margin-bottom: .8rem;
+
+    }
+    .ant-tree{
+
+        li{
+            display: flex;
+            flex-wrap: wrap;
+            &>span{
+
+                &:nth-child(2){
+                    flex-grow: 1;
+                }
+            }
+
+            ul{
+                width: 100%;
+            }
+        }
+    }
+}
+.linebox{
+    width: 100%;
+}

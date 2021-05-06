@@ -1,0 +1,128 @@
+@media screen and (max-width: 900px) {
+  html{
+    font-size: 10px !important;
+    width: 100%;
+  }
+    body {
+       width: 100%;
+       overflow-x: hidden;
+
+    }
+    .app{
+        .main .container-fluid {
+          min-width: 300px;
+          padding: 0;
+        }
+
+        .Header{
+            min-width: 300px;
+            margin: 0;
+
+            .fxxkns{
+                display: none;
+            }
+            
+            .fxPdJ:nth-child(1){
+              display: none;
+              width: 0 !important;
+            }
+        } 
+
+        .first-panel{
+          flex-direction: column;
+
+          .panel{
+            width: 100%;
+            &:nth-child(2){
+              margin: 0 0 20px;
+            }
+          }
+        }
+        
+    } 
+    
+}
+.template-walletTemplate{
+  width: 100%;
+  overflow-x: hidden;
+}
+.progressbox{
+  position: relative;
+
+  .numbers{
+      position: absolute;
+      right: calc(35% - 5em) ;
+      top: 50%;
+  }
+}
+.queryaction>div{
+  min-height: 400px;
+  .ant-input-search{
+    margin-left: 10px;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .ant-table table{
+    width: max-content !important;
+  }
+  .ant-table-body{
+    overflow: auto !important;
+  }
+  .media{
+    display: none !important;
+  }
+
+  .mida768{
+    display: none !important;
+  }
+
+  .flex-box-foot{
+    flex-direction: column;
+  }
+
+  .container{
+      padding: 0;
+      width: 100%;
+  }
+
+  .panel-body{
+      padding: 0;
+  }
+
+  .midbox{
+    .flex-box-lg{
+      margin: 0;
+    }
+   
+  }
+}
+
+.TransactionQueryPage {
+  .linefirst{
+    flex-direction: column;
+
+    .col-6{
+      flex: auto;
+      width: 100% !important;
+      max-width: 100%;
+    }
+    .col-2{
+      width: 100% !important;
+      max-width: 100%;
+      text-align: right;
+      display: none;
+    }
+  }
+  .col-2{
+    word-break: break-word;
+  }
+  .hx{
+    min-width: 5em;
+  }
+  .bw{
+    word-break: break-all;
+    line-height: 1.6;
+  }
+}

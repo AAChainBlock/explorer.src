@@ -1,0 +1,50 @@
+@import "scss/_mixins.scss";
+.quantitybox{
+  display: flex;
+  .quantitybox-left{
+    text-align: right;
+    min-width: 5em;
+    color: #09ce7c;
+    text-decoration: underline;
+  }
+  .quantitybox-right{
+    text-align: left;
+  }
+}
+.InfoPage{
+  .transfertable {
+    text-align: right;
+    padding: 10px;
+  }
+  .high-block{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    background: #dddddd;
+  }
+
+  .panel-body{
+    overflow-y: auto;
+    width: 100%;
+  }
+
+  .panelhead{
+    display: flex;
+    align-items: center;
+    padding: .8rem .3rem .6rem;
+
+    &>div{
+      display: flex;
+      align-items: center;
+      margin-right: .5rem;
+
+
+      &:nth-child(2){
+        color: #0152a3;
+      }
+      
+    }
+  }
+}

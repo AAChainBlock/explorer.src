@@ -1,0 +1,89 @@
+.tabPane{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.ant-tabs-tabpane{
+    min-height: 400px;
+    position: relative;
+    padding-bottom: 50px;
+
+    .flowbox{
+        .ant-pagination{
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+    
+}
+.TransactionQueryPage{
+    .ant-tree .ant-tree-treenode{
+        width: 100%;
+    }
+    .ant-tree .ant-tree-node-content-wrapper{
+        display: block;
+        width: 100%;
+    }
+}   
+
+
+.transfertable {
+    text-align: right;
+    padding: 10px;
+  }
+ .accountTabs-box{
+    margin: 1.5rem 0;
+
+    
+
+    .searbox{
+        padding: 10px 10px 0;
+        .ant-input-search {
+            margin-left: 10px;
+        }
+    }
+    .ant-tabs-bar{
+        margin-bottom: 0;
+    }
+
+    .ant-tabs-tabpane{
+        background-color: #fff !important;
+    }
+
+    .ant-tabs{
+        background-color: #fff;
+        margin-top: 2rem;
+
+        .ant-tabs-tab{
+
+            span{
+                display: flex;
+                align-items: center;
+            }
+        }
+        .ant-tabs-bar{
+            background-color: #edf2f6;
+            color: rgb(153, 153, 153);
+            margin: 0;
+        }
+
+        .ant-tabs-tab-active{
+            background-color: #fff;
+            color: rgb(0, 82, 163);
+            border: 1px solid #ddd;
+            border-bottom: none;
+            position: relative;
+            top: 1px;
+        }
+        .ant-tabs-nav-scroll{
+            border-bottom: 1px solid #ddd;
+        } 
+        .ant-tabs-ink-bar{
+            background: none;
+        }
+        .ant-tabs-tabpane{
+            border: 1px solid #ddd;
+            border-top: none;
+        }
+    }
+ }

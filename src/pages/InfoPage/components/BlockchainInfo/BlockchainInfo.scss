@@ -1,0 +1,110 @@
+// @media
+
+
+.content-box{
+    .flex-grow{
+        flex-grow: 1;
+        border: none !important;
+    }
+    .color0052a3{
+        color: #0052a3 !important;
+    }
+    display: flex;
+    // align-items: flex-start;
+    padding: 5px;
+    line-height: 34px;
+    
+
+    
+    .lg-box{
+        height: 100px;
+    }
+    .startiems{
+        text-decoration: none !important;
+        color: #999 !important;
+    }
+    .chartbox{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .font-fangzheng{
+        // font-family: fangzhengGBK;
+        font-size: 3rem !important;
+        color: rgb(0, 82, 163) !important;
+        line-height: 0.771;
+    }
+
+    .fontSize30{
+        font-size: 1.8rem !important;
+        font-family: "Microsoft YaHei";
+        color: rgb(0, 82, 163) !important;
+        font-weight: bold;
+    }
+
+
+    .value{
+        min-width: 30%;
+        flex-shrink: 0;
+        font-size: 14px;
+        font-family: "SimSun";
+        color: rgb(153, 153, 153);
+        line-height: 2.643;
+    }
+
+    .keys{
+        font-size: 18px;
+        color: #444;
+        flex-grow: 1;
+        text-decoration: underline;
+        font-size: 1.4rem;
+        line-height: 2.643;
+    }
+ 
+    .flex-box-c{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        width: 50%;
+        .flex-box{
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .flex-box-lg{
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid #ddd;
+            flex-grow: 1;
+            
+            .flex-box{
+                border: none;
+            }
+
+        }
+        
+    }
+    .flex-box-foot{
+        display: flex;
+
+        // display: none;
+        .flex-box{
+            flex-grow: 1;
+            border: none;
+
+            &>div{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content-box{
+        flex-direction: column;
+
+        .flex-box-c {
+            width: 100%;
+        }
+    }
+
+}

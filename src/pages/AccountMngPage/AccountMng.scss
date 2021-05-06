@@ -1,0 +1,21 @@
+.scatter-tabs{
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background-color: #fcfdfe;
+    .ant-tabs{
+        padding: 10px;
+    }
+    .ant-tabs-tab{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ant-tabs-bar{
+        margin-bottom: 0;
+    }
+    .ant-form{
+        padding: 20px 10px;
+    }
+}
+.scatter-container{
+    padding: 0;
+}

@@ -1,0 +1,11 @@
+.pagbody{
+    display: flex;
+    justify-content: space-between;
+}
+.pagbody button {
+    margin: 10px;
+}
+.memosearch{
+    width: 360px !important;
+    margin: 10px 0;
+}

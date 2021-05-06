@@ -1,0 +1,53 @@
+.TransactionQueryPage{
+    .unit{
+        display: flex;
+        align-items: center;
+        color: rgb(0, 82, 163);
+        padding-left: 1rem;
+        font-size: .9rem;
+    }
+
+    .ant-tabs{
+        background-color: #fff;
+        margin-top: 2rem;
+
+        .ant-tabs-tab{
+
+            span{
+                display: flex;
+                align-items: center;
+            }
+        }
+        .ant-tabs-bar{
+            background-color: #edf2f6;
+            color: rgb(153, 153, 153);
+            margin: 0;
+        }
+
+        .ant-tabs-tab-active{
+            background-color: #fff;
+            color: rgb(0, 82, 163);
+            border: 1px solid #ddd;
+            border-bottom: none;
+            position: relative;
+            top: 1px;
+        }
+        .ant-tabs-nav-scroll{
+            border-bottom: 1px solid #ddd;
+        }
+        .ant-tabs-ink-bar{
+            background: none;
+        }
+        .ant-tabs-tabpane{
+            border: 1px solid #ddd;
+            border-top: none;
+        }
+    }
+}
+
+
+  
+
+  
+
+

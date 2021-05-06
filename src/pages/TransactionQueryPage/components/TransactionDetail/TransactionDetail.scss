@@ -1,0 +1,86 @@
+.TransactionDetail{
+    // padding: 5px;
+    line-height: 34px;
+    
+    .font-fangzheng{
+        line-height: 2;
+    }
+
+    .lg-box{
+        padding: 0 10px !important;
+    }
+    .midbox{
+        display: flex;
+        // align-items: center;
+
+
+        .flex-box-lg {
+            flex-grow: 1;
+            border: none !important;
+            
+            &:nth-child(1){
+                margin-right: .5rem;
+
+            }
+            &:nth-child(2){
+                margin-left: .5rem;
+            }
+
+            .flex-box{
+                padding: 0 .8rem;
+
+
+                &:nth-child(1){
+                    padding-top: .8rem;
+                }
+                &:nth-child(2){
+                    padding-bottom: .8rem;
+                }
+                &:nth-child(3){
+                    padding: .8rem;
+                }
+
+                .keys{
+                    line-height: 1.7;
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+  
+    .borderline{
+        border-bottom: 1px solid #ddd !important;  
+    }
+
+    .value{
+        min-width: 30%;
+        flex-shrink: 0;
+        font-size: 14px;
+        font-family: "SimSun";
+        color: rgb(153, 153, 153);
+        line-height: 2.643;
+    }
+
+    .keys{
+        font-size: 18px;
+        color: #444;
+        flex-grow: 1;
+        text-decoration: underline;
+        font-size: 1.4rem;
+        line-height: 2.643;
+    }
+ 
+   
+}
+
+
+@media screen and (max-width: 900px) {
+    .midbox{
+        flex-direction: column;
+
+        .flex-box-lg{
+            width: 100%;
+        }
+    }
+}

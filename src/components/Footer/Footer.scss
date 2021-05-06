@@ -1,0 +1,23 @@
+.footer{
+  display: flex;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  justify-content: space-between;
+  .components{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+
+    &:nth-child(4){
+      text-align: right;
+    }
+
+    span{
+      color:rgb(173, 184, 214);
+    }
+
+  }
+
+  
+}

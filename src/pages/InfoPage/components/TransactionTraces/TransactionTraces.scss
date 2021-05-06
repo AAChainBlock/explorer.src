@@ -1,0 +1,58 @@
+.linebox{
+    
+    .linefirst{
+        width: 100%;
+        min-height: 45px;
+        display: flex;
+        margin-bottom: .3rem
+    }
+}
+.flowbox{
+    overflow: auto;
+    padding: .8rem;
+}
+.eHdVYL{
+    margin-left: .8rem
+}
+.currorPoint{
+    cursor: pointer;
+    color: #1890ff !important;
+    
+
+    &:hover{
+        background-color: #f1f1f1;
+        text-decoration: underline !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .linefirst{
+        flex-wrap: wrap;
+        border-bottom: 1px solid #eee;
+        padding: .3rem 0;
+        flex: auto;
+        &>div{
+            padding: 0 .5rem;
+            box-sizing: border-box;
+            overflow: hidden;
+
+            &:nth-child(1),&:nth-child(2){
+                width: 50% !important;
+                max-width: 50%;
+                flex: auto;
+            }
+            &:nth-child(3){
+                width: 100% !important;
+                max-width: 100%;
+                padding-left: 1rem;
+            }
+            &:nth-child(4){
+                width: 100% !important;
+                max-width: 100%;
+                text-align: right;
+                flex: auto;
+            }
+        }
+    }
+
+}

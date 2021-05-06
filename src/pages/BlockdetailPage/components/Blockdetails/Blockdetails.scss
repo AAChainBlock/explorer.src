@@ -1,0 +1,115 @@
+.Blockdetails{
+    // padding: 5px;
+    line-height: 34px;
+    
+    .font-fangzheng{
+        line-height: 2;
+        display: flex;
+        align-items: center;
+        span{
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            margin-left: .8rem;
+            text-decoration: none !important;
+            cursor: pointer;
+             i{
+                 &:nth-child(1){
+                     margin-right: .2rem;
+
+                 }
+                 &:nth-child(2){
+                    margin-left: .2rem
+                 }
+             }
+        }
+    }
+
+    .lg-box{
+        padding: 0 10px !important;
+    }
+    .midbox{
+        display: flex;
+        align-items: center;
+
+
+        .flex-box-lg {
+            flex-grow: 1;
+            border: none !important;
+            
+            &:nth-child(1){
+                margin-right: .5rem;
+
+            }
+            &:nth-child(2){
+                margin-left: .5rem;
+            }
+
+            .flex-box{
+                padding: .8rem;
+
+
+                // &:nth-child(1){
+                //     padding-top: .8rem;
+                // }
+                // &:nth-child(2){
+                //     padding-bottom: .8rem;
+                // }
+                // &:nth-child(3){
+                //     padding: .8rem;
+                // }
+
+                .keys{
+                    line-height: 1.7;
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                    width: 10em;
+                }
+            }
+        }
+    }
+  
+    .borderline{
+        border-bottom: 1px solid #ddd !important;  
+    }
+
+    .value{
+        min-width: 8em;
+        flex-shrink: 0;
+        font-size: 14px;
+        font-family: "SimSun";
+        color: rgb(153, 153, 153);
+        line-height: 2.643;
+    }
+
+    
+    .keys{
+        font-size: 18px;
+        color: #444;
+        flex-grow: 1;
+        font-size: 1.4rem;
+        line-height: 2.643;
+    }
+    .btn{
+        color: #fff !important;
+        margin-right: .8rem !important;
+        font-size: .9rem !important;
+        line-height: 1.6 !important;
+        border-radius: 50%;
+    }
+   .btn-small{
+    border-radius: 4px;
+    text-decoration: none !important;
+   }
+}
+
+
+@media screen and (max-width: 900px) {
+    .midbox{
+        flex-direction: column;
+
+        .flex-box-lg{
+            width: 100%;
+        }
+    }
+}

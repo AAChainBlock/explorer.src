@@ -1,0 +1,38 @@
+.node-box{
+    .table-title{
+        display: flex;
+        line-height: 50px;
+        font-weight: 500;
+        font-size: 20px;
+        .table-th{
+            flex-grow: 1;
+            flex-shrink: 0;
+            width: 16.6666%;
+        }
+    }
+
+    .table-tr{
+        display: flex;
+        line-height: 44px;
+        border-bottom: 1px solid #dfdfdf;
+
+        .table-td{
+            flex-grow: 1;
+            font-size: 16px;
+            flex-shrink: 0;
+            width: 16.6666%;
+        }
+    }
+}
+.node-table{
+    .ant-table-thead{
+        width: 100%;
+        overflow: auto;
+        tr{
+    
+            th{
+                padding: .5rem;
+            }
+        }
+    }
+}

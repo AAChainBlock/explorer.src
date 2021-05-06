@@ -1,0 +1,15 @@
+.pns{
+    display: flex;
+    &>div{
+        flex-shrink: 0;
+        min-width: 80%;
+    }
+}
+
+.pns2{
+    display: flex;
+    &>div{
+        flex-shrink: 0;
+        min-width: 80%;
+    }
+}

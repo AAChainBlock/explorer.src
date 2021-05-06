@@ -1,0 +1,211 @@
+.ant-tabs-tabpane {
+    .transCode {
+        top: 15px;
+    }
+}
+
+.detail-box {
+    padding: 5px;
+    line-height: 34px;
+
+    .createby {
+        color: rgb(153, 153, 153);
+        font-size: 1.4rem
+    }
+
+
+
+
+    .lg-box {
+        height: 98px;
+    }
+
+    .borderline {
+        border-bottom: 1px solid #ddd !important;
+    }
+
+    .lineHeight20 {
+        padding: 10px !important;
+
+        .value {
+            line-height: 20px;
+            font-size: .8rem;
+            color: rgb(153, 153, 153);
+        }
+
+        .keys {
+            line-height: 20px;
+            font-size: 1.4rem;
+            color: rgb(0, 82, 163);
+            text-decoration: none;
+        }
+    }
+
+    .font-fangzheng {
+        font-family: "Microsoft YaHei";
+        font-size: 1.9rem !important;
+        color: rgb(0, 82, 163) !important;
+        line-height: 0.771;
+    }
+
+    .fontSize30 {
+        font-size: 1.8rem !important;
+        font-family: "Microsoft YaHei";
+        color: rgb(0, 82, 163) !important;
+        font-weight: bold;
+    }
+
+    .value {
+        min-width: 30%;
+        flex-shrink: 0;
+        font-size: 14px;
+        font-family: "SimSun";
+        color: rgb(153, 153, 153);
+        line-height: 2.643;
+    }
+
+    .keys {
+        font-size: 18px;
+        color: #444;
+        flex-grow: 1;
+        text-decoration: underline;
+        font-size: 1.4rem;
+        line-height: 2.643;
+    }
+
+    .flex-box-c {
+        flex-direction: column;
+        flex-grow: 1;
+
+        .flex-box {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .flex-box-lg {
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid #ddd;
+
+            .flex-box {
+                border: none;
+            }
+        }
+
+    }
+
+    .flex-box-foot {
+        display: flex;
+
+        .flex-box {
+            flex-grow: 1;
+            border: none;
+        }
+    }
+
+
+
+}
+
+.pagbox {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-box {
+
+    .anmit {
+        transition: height .3s;
+        background: #f5f5f5;
+        position: relative;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .hight1 {
+        height: 1.5rem !important;
+        overflow: hidden;
+    }
+
+    .mengb {
+        background-color: #f5f5f5;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 1.5rem;
+        z-index: 99;
+        cursor: pointer;
+        padding: 0 1rem;
+
+        &:hover {
+            background-color: #f1f9f2;
+        }
+    }
+
+    .hight2 {
+        height: 600px;
+    }
+
+    .mapbothordiv {
+        display: flex;
+
+        padding: .8rem;
+
+
+        &>div {
+            padding: .5rem;
+
+
+
+            &:nth-child(1) {
+                i {
+                    position: relative;
+                    top: -.2rem;
+                }
+
+            }
+
+            &:nth-child(1),
+            &:nth-child(2) {
+                width: 20%;
+                flex-shrink: 0;
+
+                i {
+                    margin-right: .3rem;
+                }
+
+                span {
+                    color: rgb(0, 82, 163);
+                }
+
+            }
+
+            &:nth-child(2) {
+                display: flex;
+                justify-content: flex-start;
+
+                // align-items: center;
+                i {
+                    line-height: 21px;
+                }
+
+                &>div {
+                    span {
+                        color: rgb(0, 82, 163);
+                    }
+                }
+            }
+
+            &:nth-child(3) {
+                flex-grow: 1;
+                background-color: #eef2f6;
+
+                &>div {
+                    width: 100%;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
